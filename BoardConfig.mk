@@ -206,6 +206,9 @@ TARGET_USERIMAGES_USE_F2FS := true
 # Enable real time lockscreen charging current values
 BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
 
+# Releasetools extension for shipping firmware
+TARGET_RELEASETOOLS_EXTENSIONS := device/oneplus/oneplus3
+
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 
