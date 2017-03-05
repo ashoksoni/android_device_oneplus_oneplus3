@@ -6,3 +6,8 @@ allow system_server sensors_persist_file:dir search;
 allow system_server proc_stat:file r_file_perms;
 allow system_server remosaic_service:service_manager find;
 get_prop(system_server, diag_prop);
+
+# talk to perfd
+allow system_server perfd_data_file:dir search;
+allow system_server perfd_data_file:sock_file write;
+allow system_server perfd:unix_stream_socket connectto;

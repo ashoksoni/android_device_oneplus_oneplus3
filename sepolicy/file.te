@@ -7,3 +7,14 @@ type nv_data_file, file_type;
 type proc_stat, fs_type;
 type debugfs_msm_core, debugfs_type, fs_type;
 type debugfs_rmts, debugfs_type, fs_type;
+
+# /data
+type perfd_data_file, file_type, data_file_type;
+
+# /proc
+type proc_kernel_sched, fs_type;
+
+# /sys
+type sysfs_msm_subsys, sysfs_type, fs_type;
+type sysfs_perf, sysfs_type, fs_type;
+type sysfs_power_management, sysfs_type, fs_type;
