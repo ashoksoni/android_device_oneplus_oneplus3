@@ -119,6 +119,11 @@ persist.radio.ignore_dom_time=5
 persist.radio.hw_mbn_update=0
 persist.radio.sw_mbn_update=0
 persist.radio.start_ota_daemon=1
+#Supposed to work Wifi Calling and Video Calling so Testing.
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.data.iwlan.enable=true
+persist.dbg.wfc_avail_ovr=1 
 
 # RmNet Data
 persist.rmnet.data.enable=true
