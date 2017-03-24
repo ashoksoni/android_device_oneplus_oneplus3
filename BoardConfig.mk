@@ -232,8 +232,5 @@ WIFI_DRIVER_FW_PATH_STA := "sta"
 WIFI_DRIVER_FW_PATH_P2P := "p2p"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
-#Allow HAL to handle video buffer duped FD's."
-TARGET_CAMERASERVICE_CLOSES_NATIVE_HANDLES := true
-
 # inherit from the proprietary version
 -include vendor/oneplus/oneplus3/BoardConfigVendor.mk
