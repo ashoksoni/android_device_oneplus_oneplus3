@@ -148,3 +148,4 @@ persist.dbg.volte_avail_ovr=1
 
 # Wifi
 wifi.interface=wlan0
+persist.debug.wfd.enable=1
