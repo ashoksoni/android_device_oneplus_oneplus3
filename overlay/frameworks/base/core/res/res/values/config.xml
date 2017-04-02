@@ -418,4 +418,6 @@
         <item>"/system/framework/arm64/boot-core-libart.oat"</item>
    </string-array>
 
+    <!-- Wether device has dash charging support -->
+    <bool name="config_hasDashCharger">true</bool>
 </resources>
