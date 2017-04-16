@@ -1,2 +1,3 @@
 # address fc due to denial for fb manager
 allow untrusted_app lock_settings_service:service_manager find;
+allow untrusted_app proc_stat:file {open read};
