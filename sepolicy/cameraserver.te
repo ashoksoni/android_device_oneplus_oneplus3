@@ -1,0 +1,2 @@
+# perfd
+allow cameraserver mpctl_socket:dir search;
