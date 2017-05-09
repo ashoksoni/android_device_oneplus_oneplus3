@@ -285,10 +285,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libjson
 
-#EAS
-PRODUCT_PACKAGES += \
-    power.msm8996
-
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
