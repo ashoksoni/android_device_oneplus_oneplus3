@@ -209,6 +209,11 @@ TARGET_USERIMAGES_USE_F2FS := true
 # Enable real time lockscreen charging current values
 BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
 
+# EAS
+TARGET_POWERHAL_VARIANT := voxpopuli
+TARGET_USES_INTERACTION_BOOST := true
+-include device/voxpopuli/sepolicy/sepolicy.mk
+
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 
