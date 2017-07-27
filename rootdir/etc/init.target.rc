@@ -159,6 +159,7 @@ on boot
     chown system system /sys/devices/soc/soc:fpc_fpc1020/screen_state
     chmod 0660 /sys/devices/soc/soc:fpc_fpc1020/hw_reset
     chown system system /sys/devices/soc/soc:fpc_fpc1020/hw_reset
+    chown system system /proc/fingerprint/disable
 
     # NFC
     chmod 0666 /dev/pn544
