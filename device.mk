@@ -292,10 +292,6 @@ PRODUCT_PACKAGES += \
     init.spectrum.rc \
     init.spectrum.sh
 
-# Recovery
-PRODUCT_PACKAGES += \
-    librecovery_updater_op3
-
 # RIL
 PRODUCT_PACKAGES += \
     librmnetctl \
