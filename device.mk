@@ -275,7 +275,9 @@ PRODUCT_PACKAGES += \
     power.msm8996
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/powerhint.xml:system/etc/powerhint.xml
+    $(LOCAL_PATH)/configs/powerhint.xml:system/etc/powerhint.xml \
+    $(LOCAL_PATH)/prebuild/lib/libcameraservice.so:system/lib/libcameraservice.so \
+    $(LOCAL_PATH)/prebuild/lib64/libcameraservice.so:system/lib64/libcameraservice.so
 
 # QMI
 PRODUCT_PACKAGES += \
